@@ -1,0 +1,7 @@
+        let nv = document.getElementById("nv")
+        let menuAberto = false
+
+        function clicar() {
+            menuAberto = !menuAberto
+            nv.style.display = menuAberto ? "flex" : "none"
+        }
